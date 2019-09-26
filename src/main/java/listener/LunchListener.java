@@ -32,7 +32,7 @@ public class LunchListener extends ListenerAdapter {
 				break;
 			case "help":
 				if (param == "") {
-					sayMsg("!yy : 호출 \n !yy ehco 할말 : 메아리", event);
+					sayMsg("!yy : 호출 \n !yy echo 할말 : 메아리", event);
 				} else {
 					sayMsg(param, event);
 				}
